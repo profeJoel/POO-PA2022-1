@@ -1,8 +1,12 @@
 public class Mouse{
-    int id;
-    String name;
+    private int id;
+    private String name;
 
     public Mouse(String name){
         this.name = name;
+    }
+
+    public String getName(){
+        return this.name;
     }
 }

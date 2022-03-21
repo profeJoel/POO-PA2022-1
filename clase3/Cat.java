@@ -1,13 +1,13 @@
 
 public class Cat{
     //Atributos
-    int id;
-    String name;
-    String sex;
-    double age;
-    double weight;
-    String color;
-    String texture;
+    private int id;
+    private String name;
+    private String sex;
+    private double age;
+    private double weight;
+    private String color;
+    private String texture;
 
     //Métodos
     //Constructor
@@ -40,8 +40,26 @@ public class Cat{
     }
 
     public Mouse huntMice(Mouse hunted){
-        System.out.println(this.name + " Cazó a " + hunted.name);
+        System.out.println(this.name + " Cazó a " + hunted.getName());
         return hunted;
+    }
+
+    public String getName(){
+        return this.name;
+    }
+
+    public String getColor(){
+        return this.color;
+    }
+
+    public void setColor(String color){
+        int i;
+        String[] colores = {"Rojizo", "Negro", "Blanco", "orange", "gris", "marrón"};
+        for(i=0; i<6; i++)
+            if(colores[i] == color)
+                this.color = color;
+        if(i>= 6)
+            System.out.println("El color no está disponible");
     }
 
 }
