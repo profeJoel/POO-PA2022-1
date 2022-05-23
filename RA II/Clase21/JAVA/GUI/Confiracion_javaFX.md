@@ -1,0 +1,1 @@
+link: https://replit.com/@templates/JavaFX-OpenJFX#.replit
