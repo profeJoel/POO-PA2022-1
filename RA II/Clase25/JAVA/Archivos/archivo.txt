@@ -1,0 +1,4 @@
+Hola Clase,  este es un ejemplo de texto en un archivo
+Esta es la segunda línea del archivo
+puedo agregar otra línea 
+y otra más
